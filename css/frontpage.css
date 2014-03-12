@@ -1,0 +1,53 @@
+/*
+ * Base structure
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: helvetica, arial;
+	 }
+.photo {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	height: 650px;
+	width:1280px;
+	position: relative;
+}
+.photo span{
+	bottom:0;
+	color:white;
+	display:block;
+	left:50%;
+	margin-left:-440px;
+	font-size:38px;
+	position:absolute;
+	width:1280px;
+
+}
+.one {
+	background-image: url(../images/1.jpg);
+}
+.two {
+	background-image: url(../images/2.jpg);
+}
+.three {
+	background-image: url(../images/3.jpg);
+}
+.four {
+	background-image: url(../images/4.jpg);
+}
+.five {
+	background-image: url(../images/5.jpg);
+}
+.six {
+	background-image: url(../images/6.jpg);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+
+
+
