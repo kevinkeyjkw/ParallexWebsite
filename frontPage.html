@@ -20,6 +20,8 @@
     	$(function(){
     		$.stellar({
     			horizontalScrolling:false,
+    			verticalScrolling:true,
+    			horizontalOffset:1000,
     			verticalOffset:900
     		});
     	});
@@ -27,23 +29,32 @@
     </head>
 
   <body style="zoom:1;">
-
+	<div id="wrapper">
   
-        
-			<div class="photo one" data-stellar-background-ratio="0.2" style="background-position:50% 0px;"><span>Europe</span>
+			<div class="photo one" data-stellar-background-ratio="0.3" style="background-position:50% 0px;"><span>Day One</span>
 			</div>
-			<div class="photo two" data-stellar-background-ratio="0.2" style="background-position:50% 225px;"><span>Europe</span>
+			
+			<div class="photo two" data-stellar-background-ratio="0.3" style="background-position:50% 225px;"><span>Day Two</span>
 			</div>
-			<div class="photo three" data-stellar-background-ratio="0.2" style="background-position:50% 450px;"><span>Europe</span>
+			
+			
+			<div class="photo three" data-stellar-background-ratio="0.2" style="background-position:50% -350px;"><span>Day Three</span>
 			</div>
-			<div class="photo four" data-stellar-background-ratio="0.2" style="background-position:50% 100px;"><span>China</span>
+		
+			<div class="photo four" data-stellar-background-ratio="0.2" style="background-position:0% 100px;"><span>Day Four</span>
+			<div class="photo five" data-stellar-background-ratio="0.2" style="background-position:120% 100px;"></div>
 			</div>
-			<div class="photo five" data-stellar-background-ratio="0.2" style="background-position:50% 800px;"><span>China</span>
+		
+			<div class="photo six" data-stellar-background-ratio="0.2" style="background-position:50% 325px;"><span>Day Five</span>
 			</div>
-			<div class="photo six" data-stellar-background-ratio="0.2" style="background-position:50% 925px;"><span>China</span>
-			</div>
-  
-
+			
+  			<div class="photo seven" data-stellar-background-ratio="0.2" style="background-position:50% 300px;"><span>Day Six</span>
+  			</div>
+  			
+  			<div class="photo eight" data-stellar-background-ratio="0.2" style="background-position:50% 300px;"><span>Day Seven</span>
+  			</div>
+  			
+	</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

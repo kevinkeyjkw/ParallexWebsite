@@ -6,9 +6,20 @@
 	margin: 0;
 	padding: 0;
 }
+html{
+	overflow:auto;
+}
 body {
 	font-family: helvetica, arial;
+	background-color:black;
+
+	overflow:hidden;
 	 }
+#wrapper{
+	margin:0 auto;
+	position: relative;
+	width:1280px;
+}
 .photo {
 	background-attachment: fixed;
 	background-position: 50% 0;
@@ -16,6 +27,18 @@ body {
 	height: 650px;
 	width:1280px;
 	position: relative;
+}
+.transparent{
+
+}
+.text{
+	font-family: helvetica, arial;
+	background:rgba(255,255,255,0.5);
+	background-color:white;
+	color:grey;
+	height:100px;
+	width:1280px;
+	font-size:24px;
 }
 .photo span{
 	bottom:0;
@@ -46,7 +69,12 @@ body {
 .six {
 	background-image: url(../images/6.jpg);
 }
-
+.seven{
+	background-image: url(../images/7.jpg);
+}
+.eight{
+	background-image: url(../images/8.jpg);
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
 
